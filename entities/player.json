@@ -1,0 +1,215 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": -1,
+				"inhaleTime": 3.75,
+				"generatesBubbles": false
+			},
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:scaffolding_climber": {},
+			"minecraft:damage_sensor": {
+				"on_damage": {
+					"filters": {
+						"any_of": [
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:red"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:red"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:blue"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:blue"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:green"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:green"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:yellow"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:yellow"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:aqua"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:aqua"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:white"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:white"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:pink"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:pink"
+									}
+								]
+							},
+							{
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "other",
+										"value": "team:gray"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "team:gray"
+									}
+								]
+							}
+						]
+					}
+				},
+				"deals_damage": false
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}
