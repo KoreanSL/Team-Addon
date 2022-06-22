@@ -13,6 +13,6 @@ remove team
 ```
  - Teammates can't hit each other
  
- - The team name is displayed next to your nickname
+ - Team name is displayed next to your nickname
 
 
