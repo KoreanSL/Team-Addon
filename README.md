@@ -9,10 +9,12 @@ add team
   
 remove team
 - /tag <targets> add "team:reset"
-
 ```
+
+ ## Features
+ ```
  - Teammates can't hit each other
  
  - Team name is displayed next to your nickname
-
+```
 
