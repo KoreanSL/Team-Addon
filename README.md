@@ -10,6 +10,5 @@ add team
 remove team
 - /tag <targets> add "team:reset"
 
-![img](https://user-images.githubusercontent.com/105429219/175032413-35d9755b-bcbc-4d3a-b7a7-63fa10de35ec.png)
-
 ```
+![img](https://user-images.githubusercontent.com/105429219/175032413-35d9755b-bcbc-4d3a-b7a7-63fa10de35ec.png)
