@@ -12,9 +12,7 @@ remove team
 ```
 
  ## Features
- ```
- - Teammates can't hit each other
+ - `Teammates can't hit each other`
  
  - Team name is displayed next to your nickname
-```
 
