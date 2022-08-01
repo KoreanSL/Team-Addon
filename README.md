@@ -11,6 +11,8 @@ remove team
 - /tag <targets> add "team:reset"
 ```
  ## Function
- - `Teammates can't hit each other`
+ ```
+ Teammates can't hit each other
  
- - `Team name is displayed next to your nickname`
+ Team name is displayed next to your nickname
+```
